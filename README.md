@@ -28,23 +28,21 @@ LogAnalyzer/
 ├── 📊 LogAnalyzer_Visual.pbix # Power BI Dashboard for threat visualization
 ├── 📄 server_logs_clean.csv   # Final cleaned dataset for reporting
 └── 📄 README.md               # Project documentation
+```
 
-🚀 Key Features
-
+## 🚀 Key Features
 * Automated Log Parsing: Uses regex to extract IP addresses and status codes.
 * Structured Storage: Migrates logs into a relational SQLite database.
 * Data Transformation: Automates CSV exports for seamless reporting.
 * Threat Detection: Identifies suspicious patterns like unauthorized access.
 
-🛠️ Tech Stack
-
+## 🛠️ Tech Stack
 * Language: Python 3.9+ (Regex, SQLite3, Pandas)
 * Database: SQLite
 * Visualization: Microsoft Power BI
 * Version Control: Git & GitHub
 
-⚙️ Setup & Installation
-
+## ⚙️ Setup & Installation
 1. Clone the repository:
    git clone https://github.com/darshana-gathibandhe19/LogAnalyzer.git
 
@@ -56,8 +54,7 @@ LogAnalyzer/
 
 4. Open 'LogAnalyzer_Visual.pbix' in Power BI Desktop to view the report.
 
-🔮 Future Enhancements
-
+## 🔮 Future Enhancements
 * Real-time Alerting: Integration with Slack/Email APIs for notifications.
 * Geo-IP Mapping: Automatically mapping source IPs to physical locations.
 * Machine Learning: Implementing clustering to detect stealth attacks.
